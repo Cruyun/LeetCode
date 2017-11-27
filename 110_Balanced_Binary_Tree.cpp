@@ -18,9 +18,11 @@ public:
            return 0;
         
         int h1 = depth(root->left);
+        if (h1 == -1)
+            return -1;
+
         int h2 = depth(root->right);
-        
-        if (h1 == -1 || h2 == -1)
+        if (h2 == -1)
             return -1;
         
         int diff = abs(h1 - h2);
