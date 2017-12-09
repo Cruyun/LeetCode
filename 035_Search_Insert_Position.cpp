@@ -14,7 +14,7 @@ public:
             }
         }
         if (nums[nums.size() - 1] < target)
-                index = nums.size();
+            index = nums.size();
         return index;
     }
 };
