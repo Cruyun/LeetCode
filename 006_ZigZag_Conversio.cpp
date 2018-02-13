@@ -26,7 +26,7 @@ public:
         }
         
         string result = "";
-        for (int i = 0; i < numRows; i++) {
+        for (i = 0; i < numRows; i++) {
             result += arr[i];
         }
         
