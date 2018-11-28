@@ -8,7 +8,7 @@
  */
 class Solution {
 public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* nl2) {
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         ListNode *head = NULL;
         ListNode *temp = NULL;
         int high(0);
